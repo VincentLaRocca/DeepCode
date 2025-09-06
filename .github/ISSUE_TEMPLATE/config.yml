@@ -1,5 +1,11 @@
 {
   "$defs": {
+  {
+  "openai": {
+    "api_key": "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",
+    "reasoning_effort": "medium"
+  }
+}
     "LogPathSettings": {
       "description": "Settings for configuring log file paths with dynamic elements like timestamps or session IDs.",
       "properties": {
@@ -418,7 +424,7 @@
       "additionalProperties": true,
       "description": "Settings for using OpenAI models in the MCP Agent application.",
       "properties": {
-        "api_key": {
+        "api_key": "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", {
           "anyOf": [
             {
               "type": "string"
